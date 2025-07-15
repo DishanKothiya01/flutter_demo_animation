@@ -1,5 +1,7 @@
 import 'package:flutter_demo_animation/view/custom_animation/custom_animation_view.dart';
 import 'package:flutter_demo_animation/view/custom_animation/glowing_boarder/glowing_boarder_view.dart';
+import 'package:flutter_demo_animation/view/custom_grid_to_list_animation/custom_grid_to_list_animation_view.dart';
+import 'package:flutter_demo_animation/view/emoji_slider_animation/emoji_slider_view.dart';
 import 'package:flutter_demo_animation/view/explicit_animation/explicit_animation_view.dart';
 import 'package:flutter_demo_animation/view/hero_animation/hero_animation_view/hero_animation_view.dart';
 import 'package:flutter_demo_animation/view/lottie_and_rive_animation/lottie_animation/lottie_animation_view.dart';
@@ -48,5 +50,10 @@ class AppPages {
     GetPage(name: AppRoutes.glowingBoarderView, page: () => GlowingBoarderView()),
     GetPage(name: AppRoutes.customLoaderView, page: () => CustomLoaderView()),
 
+    /// Custom Grid to List Animation
+    GetPage(name: AppRoutes.customGridToListAnimationView, page: () =>  CustomGridToListAnimationView()),
+
+    /// Emoji Slider Animation
+    GetPage(name: AppRoutes.emojiSliderAnimationView, page: () =>  EmojiSliderView()),
   ];
 }

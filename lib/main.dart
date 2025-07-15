@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo_animation/utils/routes/app_page.dart';
 import 'package:flutter_demo_animation/utils/routes/app_routes.dart';
+import 'package:flutter_demo_animation/view/custom_grid_to_list_animation/custom_grid_to_list_animation_view.dart';
+import 'package:flutter_demo_animation/view/demo.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 void main() {
@@ -20,7 +22,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       getPages: AppPages.pages,
-      initialRoute: AppRoutes.heroAnimationView,
+      // initialRoute: AppRoutes.customGridToListAnimationView,
+      home: CustomGridToListAnimation(),
     );
   }
 }

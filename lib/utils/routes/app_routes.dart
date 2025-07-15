@@ -27,4 +27,10 @@ class AppRoutes {
   static const customAnimationView = '/CUSTOM_ANIMATION_VIEW';
   static const glowingBoarderView = '/GLOWING_BOARDER_VIEW';
   static const customLoaderView = '/CUSTOM_LOADER_VIEW';
+
+  /// Custom Grid to List Animation
+  static const customGridToListAnimationView = "/CUSTOM_GRID_TO_LIST_ANIMATION_VIEW";
+
+  /// Emoji Slider Animation
+  static const emojiSliderAnimationView = "/EMOJI_SLIDER_ANIMATION_VIEW";
 }
