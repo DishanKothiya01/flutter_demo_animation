@@ -29,7 +29,6 @@ class EmojiSliderView extends StatelessWidget {
               max: 1.0,
             );
           }),
-          const Text("Slide to adjust expression"),
         ],
       ),
     );
@@ -37,7 +36,7 @@ class EmojiSliderView extends StatelessWidget {
 }
 
 class FacePainter extends CustomPainter {
-  final double expressionValue; // from 0.0 (sad) to 1.0 (happy)
+  final double expressionValue;
 
   FacePainter({required this.expressionValue});
 
@@ -63,7 +62,7 @@ class FacePainter extends CustomPainter {
       ..strokeWidth = 4;
 
     // Control mouth curve based on expression
-    final smileOffset = (expressionValue - 0.5) * 100; // -50 to +50
+    final smileOffset = (expressionValue - 0.5) * 100;
 
     final mouthPath = Path()
       ..moveTo(center.dx - 40, center.dy + 30)

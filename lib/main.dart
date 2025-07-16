@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       ),
       getPages: AppPages.pages,
       // initialRoute: AppRoutes.customGridToListAnimationView,
-      home: CustomGridToListAnimation(),
+      home: AnimatedListGridView(),
     );
   }
 }

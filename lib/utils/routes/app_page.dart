@@ -51,7 +51,7 @@ class AppPages {
     GetPage(name: AppRoutes.customLoaderView, page: () => CustomLoaderView()),
 
     /// Custom Grid to List Animation
-    GetPage(name: AppRoutes.customGridToListAnimationView, page: () =>  CustomGridToListAnimationView()),
+    // GetPage(name: AppRoutes.customGridToListAnimationView, page: () =>  CustomGridToListAnimationView()),
 
     /// Emoji Slider Animation
     GetPage(name: AppRoutes.emojiSliderAnimationView, page: () =>  EmojiSliderView()),
